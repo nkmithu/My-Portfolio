@@ -1,0 +1,188 @@
+/* base css */
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-size: 16px;
+    letter-spacing: 1.2px;
+}
+h1,h2,h3,h4,h5,h6{
+    letter-spacing: 1.5px;
+}
+
+.font-21 {
+    font-size: 21px;
+}
+
+.font-24 {
+    font-size: 24px;
+}
+
+.font-32 {
+    font-size: 32px;
+}
+
+.font-36 {
+    font-size: 36px;
+}
+
+.font-40 {
+    font-size: 40px;
+}
+
+.font-300 {
+    font-weight: 300;
+}
+
+.font-600 {
+    font-weight: 600;
+}
+
+.font-800 {
+    font-weight: 800;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.font-red {
+    color: #e74c3c;
+}
+.font-white{
+    color: #fff;
+}
+.bg-red {
+    background-color: #e74c3c;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.col-50 {
+    width: 50%;
+    padding: 0 30px;
+}
+.col-100{
+    width: 100%;
+    padding: 0 30px;
+}
+.col-33{
+    width: 33%;
+    padding: 0 15px;
+}
+img {
+    max-width: 100%;
+}
+
+.text-center{
+    text-align: center;
+}
+section {
+    margin: 50px 30px;
+    padding: 30px 0;
+}
+
+.text-capitalize{
+    text-transform: capitalize;
+}
+
+a{
+    text-decoration: none;
+    transition: all .3s ease;
+    font-size: 16px;
+    letter-spacing: 1.2px;
+}
+a.btn{
+    color: #fff;
+    background-color: #e74c3c;
+    padding: 10px 25px;
+    border-radius: 8px;
+    text-transform: uppercase;
+}
+a.btn:hover{
+    color: #e74c3c;
+    background-color: #fff;
+    border: 1px solid #e74c3c;
+}
+/* home section start */
+
+.home-section {
+    background-image: url(imgs/header-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.home-container {
+    justify-content: space-between;
+    align-items: center;
+}
+.name{
+    margin: 15px 0 !important;
+}
+
+.heading{
+    margin: 15px 0 !important;
+}
+.home-btn{
+    margin: 45px 0;
+}
+
+
+/* bio section start */
+.bio-section {
+    background-image: url(imgs/biography-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* latest work section start */
+
+.work-section{
+    background-image: url(imgs/latest-work-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.latest-works-img{
+    margin: 50px;
+}
+/* client say  start */
+.client-section{
+    background-image: url(imgs/footer-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.client-section .col-100{
+    margin-top: 45px;
+}
+.designation{
+    margin: 0 0 30px 0;
+}
+.client-name{
+    margin: 15px 0
+}
+.massage-container{
+    padding: 50px;
+    border-radius: 8px;
+    margin: 50px auto 30px auto;
+}
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
